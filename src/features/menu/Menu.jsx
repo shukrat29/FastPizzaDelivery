@@ -11,7 +11,7 @@ const Menu = () => {
   const menu = useLoaderData();
   console.log(menu);
   return (
-    <ul className="flex flex-wrap gap-4">
+    <ul className="divide-y divide-stone-200 px-2">
       {menu.map((pizza) => (
         <MenuItem pizza={pizza} key={pizza.id} />
       ))}

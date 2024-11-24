@@ -1,11 +1,16 @@
+import CreateUser from "../features/user/CreateUser";
+
 const Home = () => {
   return (
-    <div>
-      <h1 className="text-xl text-yellow-500">
+    <div className="">
+      <h1 className="text-xl  font-semibold text-center">
         The best pizza.
         <br />
-        Straight out of the oven, straight to you.
+        <span className="text-yellow-500">
+          Straight out of the oven, straight to you.
+        </span>
       </h1>
+      <CreateUser />
     </div>
   );
 };

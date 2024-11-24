@@ -9,14 +9,11 @@ const AppLayout = () => {
   return (
     <div className="layout">
       {isLoading && <Loader />}
-
       <Header />
-
       <main>
-        <h1>Content</h1>
+        {/* content */}
         <Outlet />
       </main>
-
       <CartOverview />
     </div>
   );
