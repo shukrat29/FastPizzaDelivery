@@ -6,7 +6,7 @@ import { addItem } from "../cart/cartSlice";
 
 const MenuItem = ({ pizza }) => {
   const dispatch = useDispatch();
-  const { name, unitPrice, ingredients, soldOut, imageUrl } = pizza;
+  const { id, name, unitPrice, ingredients, soldOut, imageUrl } = pizza;
 
   const handleAddToCart = () => {
     const newItem = {
@@ -56,7 +56,6 @@ MenuItem.propTypes = {
     soldOut: PropTypes.bool.isRequired,
     imageUrl: PropTypes.string.isRequired,
     id: PropTypes.number.isRequired,
-    price: PropTypes.number.isRequired,
   }).isRequired,
 };
 

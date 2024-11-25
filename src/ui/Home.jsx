@@ -16,7 +16,7 @@ const Home = () => {
       {username === "" ? (
         <CreateUser />
       ) : (
-        <Button to="/menu" type="primary">
+        <Button type="round" to="/menu">
           Continue ordering, {username}
         </Button>
       )}
