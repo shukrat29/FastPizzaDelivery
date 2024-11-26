@@ -50,7 +50,7 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="absolute top-16 left-0 w-full bg-yellow-300 flex flex-col items-center gap-4 py-4 shadow-lg md:hidden">
+        <div className="absolute top-16 left-0 w-full bg-yellow-300 flex flex-col items-center gap-4 py-4 shadow-lg md:hidden z-50">
           <SearchOrder />
           <Link to="/cart">
             <div className="flex items-center gap-2 relative">

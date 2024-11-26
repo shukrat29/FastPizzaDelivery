@@ -5,7 +5,7 @@ import Button from "./Button";
 const Home = () => {
   const username = useSelector((state) => state.user.username);
   return (
-    <div className="">
+    <div className="py-10">
       <h1 className="text-xl  font-semibold text-center">
         The best pizza.
         <br />
