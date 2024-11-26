@@ -14,7 +14,7 @@ const Header = () => {
   const toggleMenu = () => setMenuOpen((prev) => !prev);
 
   return (
-    <header className="bg-yellow-400 border-b border-stone-200 py-4 px-4 flex items-center justify-between font-bold relative">
+    <header className="bg-yellow-400 border-b border-stone-200 py-6 px-4 flex items-center justify-between font-bold relative shadow-md">
       {/* Title */}
       <Link to="/" className="tracking-widest text-lg md:text-xl">
         FastPizzaDelivery
