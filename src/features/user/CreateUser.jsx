@@ -20,12 +20,12 @@ function CreateUser() {
   return (
     <form onSubmit={handleSubmit} className="">
       <p className="mb-4 text-sm text-stone-600 md:text-base">
-        👋 Welcome! Please start by telling us your name:
+        👋 Welcome! Please start by telling us your first name:
       </p>
 
       <input
         type="text"
-        placeholder="Your full name"
+        placeholder="Your first name"
         value={username}
         onChange={(e) => setUsername(e.target.value)}
         className="input mb-8 w-72"

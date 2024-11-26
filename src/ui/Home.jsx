@@ -10,7 +10,7 @@ const Home = () => {
         The best pizza.
         <br />
         <span className="text-yellow-500">
-          Straight out of the oven, straight to you.
+          From our kitchen to your home, effortlessly.
         </span>
       </h1>
       {username === "" ? (

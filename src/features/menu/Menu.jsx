@@ -9,13 +9,13 @@ export const loader = async () => {
 
 const Menu = () => {
   const menu = useLoaderData();
-  console.log(menu);
+
   return (
-    <ul className="divide-y divide-stone-200 px-2 ">
+    <div className="flex flex-wrap gap-6 justify-center items-center px-4 py-6 bg-gray-50">
       {menu.map((pizza) => (
         <MenuItem pizza={pizza} key={pizza.id} />
       ))}
-    </ul>
+    </div>
   );
 };
 
